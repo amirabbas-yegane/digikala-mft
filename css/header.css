@@ -1,0 +1,508 @@
+section.header{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    border-bottom: 1px solid rgb(238, 237, 237);
+   background-color: white;
+   z-index: 10;
+}
+div.top-header{
+    width: 100%;
+    height: auto;
+}
+div.top-header>a>figure>img{
+    width: 100%;
+    height: auto;
+}
+div.min-header{
+    width: 100%;
+    height: 50px;
+}
+div.logo{
+    display: inline-block;
+    margin: 10px;
+    display: inline-block;
+    float: right;
+}
+
+div.search{
+    width: 70%;
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    float: right;
+  
+}
+div.search-box{
+    width: 70%;
+    height: 35px;
+    background-color: rgb(238, 237, 237);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 5px;
+}
+div.search-icon{
+    float: right;
+    margin: 10px 15px;
+    color: gray;
+}
+
+div.search-input>form>input{
+    width: 90%;
+    height: 35px;
+    background: rgb(238, 237, 237);
+    border: none;
+}
+div.search-input>form>input:checked{
+
+    border: none;
+    background: rgb(238, 237, 237);
+}
+div.icon{
+    float: left;
+    margin: 15px;
+}
+div.icon>div>span.sabad{
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-right: 15px;
+    border-right: 1px solid grey;
+}
+div.menu{
+    width: 100%;
+    height: 50px;
+}
+nav.menu{
+    width: 70%;
+    height: 50px;
+    background-color: brown;
+}
+div.menu>div{
+    float: right;
+    margin-top: 15px;
+}
+.he{
+    background-color: aqua;
+}
+/* start slider */
+
+  div.slider{
+    width: 100%;
+    height: 400px;
+    /* background-color: #000; */
+    position: relative;
+    top: 160px;
+    display: block;
+  }
+/* end slider */
+/* start icon */
+div.send{
+    width: 1300px;
+    height: 75px;
+    margin: 20px auto;    
+}
+div.icon{
+    width: auto;
+    height: 100%;
+    display: inline-block;
+    margin: 0 48px;
+}
+div.icon>a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+div.icon>a>img{
+    width: 52px;
+    height: 52px;
+    
+}
+div.icon>a>p{
+    margin: 0;
+    text-align: center;
+    
+}
+div.more{
+    width: 52px;
+    height: 52px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 50%;
+}
+span.more{
+    
+    font-size: 40px;
+    margin-right: 9px;
+    line-height: 30px;
+    color: gray;
+}
+/* end icon */
+
+/* start shegeft */
+div.shegeft{
+    width: 1300px;
+    height: 300px;
+    background-color: rgb(255, 0, 76);
+    border-radius: 15px;
+    margin: 20px auto;
+    font-size: 150px;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 300px;
+
+}
+/* end shegeft */
+
+/* start supermarket */
+div.supermarket{
+    width: 1300px;
+    height: 110px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    margin: 20px auto;
+}
+div.supermarket1{
+    width: 45%;
+    height: inherit;
+    float: right; 
+    position: relative;
+    
+}
+div.supermarket2{
+    width: 55%;
+    height: inherit;
+    float: right;
+    position: relative;
+}
+div.sabad{
+   position: absolute;
+   top: 25px;
+   right: 15px;
+}
+div.fresh{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+div.takhfif{
+    width: 100px;
+    height: 26px;
+    background-color: rgb(0, 180, 0);
+    border-radius: 15px;
+    color: whitesmoke;
+    position: absolute;
+    top: 40px;
+    right: 400px;
+    
+  
+}
+div.takhfif>p{
+    margin: 0;
+    text-align: center;
+    line-height: 26px;
+    
+}
+div.m{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 20px 5px;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+div.m>img{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    
+}
+div.t{
+    width: 35px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50px;
+    color: whitesmoke;
+    position: absolute;
+    top: 70px;
+    text-align: center;
+    line-height: 25px;
+}
+div.t2{
+    width: 35px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50px;
+    color: whitesmoke;
+    position: absolute;
+    top: 70px;
+    right: 80px;
+    text-align: center;
+    line-height: 25px;
+}
+div.t3{
+    width: 35px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50px;
+    color: whitesmoke;
+    position: absolute;
+    top: 70px;
+    right: 170px;
+    text-align: center;
+    line-height: 25px;
+}div.t4{
+    width: 35px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50px;
+    color: whitesmoke;
+    position: absolute;
+    top: 70px;
+    right: 250px;
+    text-align: center;
+    line-height: 25px;
+}
+div.t5{
+    width: 35px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50px;
+    color: whitesmoke;
+    position: absolute;
+    top: 70px;
+    right: 330px;
+    text-align: center;
+    line-height: 25px;
+}
+div.t6{
+    width: 35px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50px;
+    color: whitesmoke;
+    position: absolute;
+    top: 70px;
+    right: 415px;
+    text-align: center;
+    line-height: 25px;
+}
+div.mo{
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    display: inline-block;
+    color: rgb(0, 180, 0);
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    
+}
+div.mo>p{
+    margin: 0
+    
+}
+/* end supermarket */
+/* start abzar */
+div.bazar{
+    width: 1300px;
+    height: 240px;
+    margin: 30px auto;
+    position: relative;
+}
+div.bazar>div>img{
+    width: 310px;
+    height: inherit;
+    border-radius: 10px;
+}
+div.bazar1{
+    
+    position: absolute;
+
+}
+div.bazar2{
+    position: absolute;
+    right: 328px;
+}
+div.bazar3{
+    position: absolute;
+    right: 655px;
+}
+div.bazar4{
+    position: absolute;
+left: 0;
+}
+/* end abzar */
+/* start kharid */
+div.kharid{
+    width: 1300px;
+    height: 380px;
+    margin: 20px auto;
+    
+}
+div.kharid1{
+    width: 1300px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+div.kharid2{
+    width: 1250px;
+    height: 125px;
+    position: relative;
+    top: 60px;
+    right: 40px;
+}
+div.kharid2>div>img{
+    width: 95px;
+    height: 95px;
+}
+div.kharid2>div>p{
+    margin: 0;
+    text-align: center;
+}
+div.kh1{
+    position: absolute;
+}
+div.kh2{
+    position: absolute;
+    right: 180px;
+}
+div.kh3{
+    position: absolute;
+    right: 350px;
+}
+div.kh4{
+    position: absolute;
+    right: 550px;
+}
+div.kh5{
+    position: absolute;
+    right: 750px;
+}
+div.kh6{
+    position: absolute;
+    right: 920px;
+}
+div.kh7{
+    position: absolute;
+    left: 0px;
+}
+div.kharid3{
+    width: 1100px;
+    height: 125px;
+    position: relative;
+    margin: 70px auto;
+    position: relative;
+
+}
+div.kharid3>div>img{
+    width: 95px;
+    height: 95px;
+    display: inline;
+}
+div.kharid3>div>p{
+    margin: 0;
+    text-align: center;
+}
+div.kh11{
+    position: absolute;
+    right: 20px;
+}
+div.kh12{
+    position: absolute;
+    right: 195px;
+}
+div.kh13{
+    position: absolute;
+    right: 385px;
+}
+div.kh14{
+    position: absolute;
+    right: 585px;
+}
+div.kh15{
+    position: absolute;
+    right: 780px;
+}
+div.kh16{
+    position: absolute;
+    left: 20px;
+}
+/* end kharid */
+/* start card1 */
+div.card1{
+    width: 1300px;
+    height: 320px;
+    margin: 20px auto;
+    position: relative;
+}
+div.c1{
+    width: 640px;
+    height: 320px;
+    margin-left: 20px;
+    position: absolute;
+}
+div.c1>a>img{
+    width: 640px;
+    height: 320px;
+    border-radius: 10px;
+}
+
+
+div.c2{
+    width: 640px;
+    height: 320px;
+    position: absolute;
+    left: 0;
+}
+div.c2>a>img{
+    width: 640px;
+    height: 320px;
+    border-radius: 10px;
+}
+/* end card1 */
+/* start pishnahad */
+div.pishnahad{
+    width: 1300px;
+    height: 385px;
+    margin: 20px auto;
+}
+div.pish1{
+    width: 1300px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+div.pish2{
+    width: 1300px;
+    height: 346px;
+    border-radius: 10px;
+    border: 1px solid rgb(203, 202, 202);
+}
+div.pish11{
+    width: 1300px;
+    height: 173px;
+    position: relative;
+}
+div.pish11>div>a>img{
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    
+}
+div.pi1{
+    width: 215px;
+    height: 173px;
+border-left: 1px solid rgb(203, 202, 202) ;
+}
+/* end pishnahad */

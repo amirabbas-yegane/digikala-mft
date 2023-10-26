@@ -1,0 +1,15 @@
+{
+  "name": "digikala",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "slider": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "swipe": "^1.7.7"
+  }
+}
