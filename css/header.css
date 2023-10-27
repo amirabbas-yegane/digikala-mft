@@ -497,12 +497,165 @@ div.pish11{
 div.pish11>div>a>img{
     width: 90px;
     height: 90px;
-    display: inline-block;
+    margin: 20px auto;
     
 }
 div.pi1{
-    width: 215px;
+    width: 185px;
     height: 173px;
-border-left: 1px solid rgb(203, 202, 202) ;
+    border-left: 1px solid rgb(203, 202, 202) ;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
 }
-/* end pishnahad */
+div.pi2{
+    width: 185px;
+    height: 173px;
+    border-left: 1px solid rgb(203, 202, 202) ;
+    position: absolute;
+    top: 0px;
+    right: 185px;
+    text-align: center;
+}
+div.pi3{
+    width: 185px;
+    height: 173px;
+    border-left: 1px solid rgb(203, 202, 202) ;
+    position: absolute;
+    top: 0px;
+    right: 370px;
+    text-align: center;
+}
+div.pi4{
+    width: 185px;
+    height: 173px;
+    border-left: 1px solid rgb(203, 202, 202) ;
+    position: absolute;
+    top: 0px;
+    right: 555px;
+    text-align: center;
+}
+div.pi5{
+    width: 185px;
+    height: 173px;
+    border-left: 1px solid rgb(203, 202, 202) ;
+    position: absolute;
+    top: 0px;
+    right: 740px;
+    text-align: center;
+}
+div.pi6{
+    width: 185px;
+    height: 173px;
+    border-left: 1px solid rgb(203, 202, 202) ;
+    position: absolute;
+    top: 0px;
+    right: 925px;
+    text-align: center;
+}
+div.pi7{
+    width: 185px;
+    height: 173px;
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+div.pish12{
+    width: 1300px;
+    height: 173px;
+    position: relative;
+}
+div.pish12>div>a>img{
+    width: 90px;
+    height: 90px;
+    margin: 20px auto;
+    
+}
+div.pis1{
+    width: 185px;
+    height: 173px;
+    border-left: 1px solid rgb(203, 202, 202) ;
+    border-top: 1px solid rgb(203, 202, 202) ;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+}
+div.pis2{
+    width: 185px;
+    height: 173px;
+    border-left: 1px solid rgb(203, 202, 202) ;
+    border-top: 1px solid rgb(203, 202, 202) ;
+
+    position: absolute;
+    top: 0px;
+    right: 185px;
+    text-align: center;
+}
+div.pis3{
+    width: 185px;
+    height: 173px;
+    border-top: 1px solid rgb(203, 202, 202) ;
+
+    border-left: 1px solid rgb(203, 202, 202) ;
+    position: absolute;
+    top: 0px;
+    right: 370px;
+    text-align: center;
+}
+div.pis4{
+    width: 185px;
+    height: 173px;
+    border-left: 1px solid rgb(203, 202, 202) ;
+    border-top: 1px solid rgb(203, 202, 202) ;
+
+    position: absolute;
+    top: 0px;
+    right: 555px;
+    text-align: center;
+}
+div.pis5{
+    width: 185px;
+    height: 173px;
+    border-left: 1px solid rgb(203, 202, 202) ;
+    border-top: 1px solid rgb(203, 202, 202) ;
+
+    position: absolute;
+    top: 0px;
+    right: 740px;
+    text-align: center;
+}
+div.pis6{
+    width: 185px;
+    height: 173px;
+    border-left: 1px solid rgb(203, 202, 202) ;
+    border-top: 1px solid rgb(203, 202, 202) ;
+
+    position: absolute;
+    top: 0px;
+    right: 925px;
+    text-align: center;
+}
+div.pis7{
+    width: 185px;
+    height: 173px;
+    border-top: 1px solid rgb(203, 202, 202) ;
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+    /* end pishnahad */
+    /* start digiplus */
+div.digiplus{
+    width: 1300px;
+    height: 390px;
+    background-color: #941b80;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+    /* start digiplus */
