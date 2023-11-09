@@ -6,7 +6,8 @@
     <link rel="website icon" href="images/Background.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="FontAwesome.Pro.6.4.0/Web/css/all.css">
-    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link  rel="stylesheet"  href="node_modules/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>فروشگاه اینترنتی دیجی کالا</title>
 </head>
 <body>
@@ -74,7 +75,20 @@
     </header>
     <!-- start slider -->
     <div class="slider">
-      
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/slider/07.gif" alt=""></div>
+          <div class="swiper-slide"><img src="images/slider/02.webp" alt=""></div>
+          <div class="swiper-slide"><img src="images/slider/03.webp" alt=""></div>
+          <div class="swiper-slide"><img src="images/slider/04.webp" alt=""></div>
+          <div class="swiper-slide"><img src="images/slider/05.webp" alt=""></div>
+          <div class="swiper-slide"><img src="images/slider/06.webp" alt=""></div>
+          <div class="swiper-slide"><img src="images/slider/01.webp" alt=""></div>
+          
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
     </div>
       <!-- end slider -->
     <!-- start icon -->
@@ -135,7 +149,7 @@
 
   <!-- start shegeft -->
   <div class="shegeft">
-      swiper
+    
   </div>
   <!-- end shegeft -->
 
@@ -276,8 +290,8 @@
     <div class="plus2">
       <img src="digi/New folder (2)/دیجی پلاس/icon01.png" alt="">
       <p>هدیه نقدی</p>
-      <a href="">مشاهده همه></a>
-      <!-- <div class="pl1">
+      <a href="">مشاهده همه ></a>
+      <div class="pl1">
         <img src="digi/New folder (2)/دیجی پلاس/101.jpg" alt="">
         <p>29.450 هدیه</p>
       </div>
@@ -331,33 +345,35 @@
         
       </div>
     </div>
-  </div> -->
+  </div>
   <!-- end digiplus -->
   <!-- start digiclub -->
-  <!-- <div class="digiclub">
+  <div class="digiclub">
     <img src="digi/New folder (2)/دیجی کلاب/digiclub-logo-white.svg" alt="">
-    <div class="club1">
-      <img src="digi/New folder (2)/دیجی کلاب/01.png" alt="">
-      <p> چرخ و بخت</p>
-      <img src="digi/New folder (2)/دیجی کلاب/01.webp" alt="">
+    <div class="dgclub">
+      <div class="club1">
+        <img class="club1i" src="digi/New folder (2)/دیجی کلاب/01.png" alt="">
+        <p> چرخ و بخت</p>
+        <img class="club1p" src="digi/New folder (2)/دیجی کلاب/01.webp" alt="">
+      </div>
+      <div class="club2">
+        <img class="club2i" src="digi/New folder (2)/دیجی کلاب/02.png" alt="">
+        <p>ماموریتها</p>
+        <img class="club2p" src="digi/New folder (2)/دیجی کلاب/02.webp" alt="">
+      </div>
+      <div class="club3">
+        <img class="club3i" src="digi/New folder (2)/دیجی کلاب/03.png" alt="">
+        <p>جایزهها</p>
+        <img class="club3p" src="digi/New folder (2)/دیجی کلاب/03.webp" alt="">
+      </div>
     </div>
-    <div class="club2">
-      <img src="digi/New folder (2)/دیجی کلاب/02.png" alt="">
-      <p>ماموریتها</p>
-      <img src="digi/New folder (2)/دیجی کلاب/02.webp" alt="">
-    </div>
-    <div class="club3">
-      <img src="digi/New folder (2)/دیجی کلاب/03.png" alt="">
-      <p>جایزهها</p>
-      <img src="digi/New folder (2)/دیجی کلاب/03.webp" alt="">
-    </div>
-  </div> -->
+  </div>
   <!-- end digiclub -->
   <!-- start khandani -->
-  <!-- <div class="khandaniha">
+  <div class="khandaniha">
     <div class="khandani1">
       <p>خواندنیها</p>
-      <a href="">مطالب بیشتر در دیجی کالا مگ></a>
+      <a href="">مطالب بیشتر در دیجی کالا مگ ></a>
     </div>
     <div class="khandani2">
       <div class="khan1">
@@ -370,14 +386,31 @@
       </div>
       <div class="khan3">
         <img src="digi/New folder (2)/خواندنی ها/03.jpg" alt="">
-        <p>بررسی دستمال سر و گردن مدل 02: کاربردی برای خانمها/p>
+        <p>بررسی دستمال سر و گردن مدل 02: کاربردی برای خانمها</p>
       </div>
       <div class="khan4">
         <img src="digi/New folder (2)/خواندنی ها/04.jpg" alt="">
         <p>بررسی آنر 90 لایت: یک میان رده با دوربین با کیفیت</p>
       </div>
     </div>
-  </div> -->
+  </div>
   <!-- end khandani -->
+  <hr>
+  <footer>
+    <div></div>
+  </footer>
+  <!-- start swiper -->
+  <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <!-- end swiper -->
+
+
 </body>
 </html>
